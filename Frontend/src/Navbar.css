@@ -1,0 +1,160 @@
+@font-face {
+  font-family: 'Welcome - ScratchOnes'; /* Name of the font */
+  src: url('/public/FONTS/Welcome.otf') format('opentype'), /* Path to the font file */
+}
+
+@font-face {
+  font-family: 'Charming'; /* Name of the font */
+  src: url('/public/FONTS/Charming.otf') format('opentype'), /* Path to the font file */
+}
+
+@font-face {
+  font-family: 'Hiki'; /* Name of the font */
+  src: url('/public/FONTS/Hiking.otf') format('opentype'), /* Path to the font file */
+}
+
+@font-face {
+  font-family: 'Sence'; /* Name of the font */
+  src: url('/public/FONTS/Sence.ttf') format('TrueType'), /* Path to the font file */
+}
+
+@font-face {
+  font-family: 'Thin'; /* Name of the font */
+  src: url('/public/FONTS/Thin.ttf') format('TrueType'), /* Path to the font file */
+}
+
+@font-face {
+  font-family: 'Picasso'; /* Name of the font */
+  src: url('/public/FONTS/Picasso.ttf') format('TrueType'), /* Path to the font file */
+}
+
+@font-face {
+  font-family: '23days'; /* Name of the font */
+  src: url('/public/FONTS/28 Days Later.ttf') format('TrueType'), /* Path to the font file */
+}
+
+@font-face {
+  font-family: 'BetsyFlanagan'; /* Name of the font */
+  src: url('/public/FONTS/BetsyFlanagan.ttf') format('TrueType'), /* Path to the font file */
+}
+
+@font-face {
+  font-family: 'National Cartoon'; /* Name of the font */
+  src: url('/public/FONTS/National Cartoon.ttf') format('TrueType'), /* Path to the font file */
+}
+
+@font-face {
+  font-family: 'orange juice 2.0'; /* Name of the font */
+  src: url('/public/FONTS/orange juice 2.0.ttf') format('TrueType'), /* Path to the font file */
+}
+
+.navbar {
+  background-color: rgb(213, 83, 152, 0.5);
+  /* padding: 10px; */
+  position: sticky; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  width: 100%;
+}
+
+.navbar-logo {
+  font-size: 34px;
+  /* font-style: italic; */
+  font-family: '23days';
+  margin-left: 40px;
+}
+
+.logo-link {
+  text-decoration: none;
+  color: #ef6464;
+}
+
+.navbar-menu {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-values {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar-values-item {
+  margin-right: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #f1f1f1;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-btn {
+  cursor: pointer;
+  color: #2f2323;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #a42e2e;
+  color: #f1f1f1;
+  min-width: 120px;
+  z-index: 1;
+}
+
+.dropdown-content li {
+  padding: 10px;
+}
+
+.dropdown-content li:hover {
+  background-color: #555;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.navbar-toggle {
+  display: none;
+  font-size: 24px;
+  color: #fff;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-values {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 56px;
+    left: 0;
+    background-color: #785151;
+    width: 100%;
+  }
+
+  .navbar-toggle {
+    display: block;
+  }
+
+  .navbar-toggle:hover + .navbar-values {
+    display: flex;
+  }
+
+  .navbar-values-item {
+    margin: 10px;
+  }
+}

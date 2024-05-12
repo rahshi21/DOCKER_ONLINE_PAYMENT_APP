@@ -1,0 +1,341 @@
+@font-face {
+  font-family: 'Welcome - ScratchOnes'; /* Name of the font */
+  src: url('/public/FONTS/Welcome.otf') format('opentype'), /* Path to the font file */
+}
+
+@font-face {
+  font-family: 'Charming'; /* Name of the font */
+  src: url('/public/FONTS/Charming.otf') format('opentype'), /* Path to the font file */
+}
+
+@font-face {
+  font-family: 'Hiki'; /* Name of the font */
+  src: url('/public/FONTS/Hiking.otf') format('opentype'), /* Path to the font file */
+}
+
+@font-face {
+  font-family: 'Sence'; /* Name of the font */
+  src: url('/public/FONTS/Sence.ttf') format('TrueType'), /* Path to the font file */
+}
+
+@font-face {
+  font-family: 'Thin'; /* Name of the font */
+  src: url('/public/FONTS/Thin.ttf') format('TrueType'), /* Path to the font file */
+}
+
+@font-face {
+  font-family: 'Picasso'; /* Name of the font */
+  src: url('/public/FONTS/Picasso.ttf') format('TrueType'), /* Path to the font file */
+}
+
+@font-face {
+  font-family: '23days'; /* Name of the font */
+  src: url('/public/FONTS/28 Days Later.ttf') format('TrueType'), /* Path to the font file */
+}
+
+@font-face {
+  font-family: 'BetsyFlanagan'; /* Name of the font */
+  src: url('/public/FONTS/BetsyFlanagan.ttf') format('TrueType'), /* Path to the font file */
+}
+
+@font-face {
+  font-family: 'National Cartoon'; /* Name of the font */
+  src: url('/public/FONTS/National Cartoon.ttf') format('TrueType'), /* Path to the font file */
+}
+
+@font-face {
+  font-family: 'orange juice 2.0'; /* Name of the font */
+  src: url('/public/FONTS/orange juice 2.0.ttf') format('TrueType'), /* Path to the font file */
+}
+
+/* Home.css */
+
+/* Container styles */
+.home-container {
+    padding: 0px;
+  }
+  
+.dual-class{
+  display: flex;
+  flex-direction: row;
+}
+
+.headline{
+  /* color: rgb(147, 147, 225); */
+  color: #e788c7;
+  margin: 180px 35px;
+  /* text-shadow: 3px 3px #cf9797; */
+  text-shadow: 3px 3px #000000;
+  -webkit-text-stroke-color: #000000;
+  /* -webkit-text-stroke-width: 0.001px; */
+  /* font-family:'Courier New', Courier, monospace; */
+  font-family: 'Welcome - ScratchOnes'; /* Use the custom font */
+  font-weight: bold;
+  font-size: 60px;
+}
+
+  /* Slider container */
+  .slider-container {
+    /* max-width: 800px; */
+    margin: 50px;
+  }
+
+  /* Button container */
+  .button-container {
+    text-align: center;
+    margin-bottom: 0px;
+  }
+  
+  /* Styled button */
+  .centered-button {
+    font-size: larger;
+    background-color: #05423d;
+    color: #fff;
+    padding: 30px;
+    border: none;
+    border-radius: 45px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'Thin';
+    font-weight: bolder;
+  }
+  
+  .centered-button:hover {
+    background-color: #6b00b3;
+  }
+  
+  /* News container */
+  .news-container {
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: rgb(235, 145, 221, 0.6);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 3);
+    text-align: center;
+  }
+  
+  .news-title {
+    font-size: 34px;
+    font-weight: bold;
+    color: #d9ce55;
+    margin-bottom: 15px;
+    font-family: 'Hiki';
+    font-weight: bolder;
+    text-shadow: 3px 3px #000000;
+    letter-spacing: 3px;
+  }
+  
+  .news-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .news-item {
+    margin-bottom: 10px;
+  }
+  
+  .news-item-title {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 26px;
+    color: #362a2a;
+    margin-bottom: 15px;
+  }
+  
+  .news-item-date {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 26px;
+    color: #362a2a;
+    margin-bottom: 15px;
+  }
+  
+  /* Featured event section */
+  .featured-event-container {
+    max-width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: rgb(235, 145, 221, 0.6);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 3);
+    text-align: center;
+  }
+  
+  .featured-event-title {
+    font-size: 34px;
+    font-weight: bold;
+    color: #d9ce55;
+    margin-bottom: 15px;
+    font-family: 'Hiki';
+    font-weight: bolder;
+    text-shadow: 3px 3px #000000;
+    letter-spacing: 4px;
+  }
+  
+  .event-title {
+    font-size: 50px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+    font-family:'Charming';
+  }
+  
+  .event-info {
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 26px;
+    color: #000000;
+    margin-bottom: 5px;
+  }
+  
+  .event-description {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: #362a2a;
+    margin-bottom: 15px;
+  }
+  
+  .event-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'Thin';
+    font-weight: bolder;
+  }
+  
+  .event-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Testimonials section */
+  .testimonials-container {
+    max-width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .testimonials-title {
+    font-size: 34px;
+    letter-spacing: 4px;
+    font-weight: bold;
+    color: #d9ce55;
+    margin-bottom: 15px;
+    font-family: 'Hiki';
+    text-shadow: 3px 3px #000000;
+  }
+  
+  .testimonials-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .testimonial-item {
+    /* background-color: #f9f9f9; */
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgb(235, 145, 221, 0.6);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 3);
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  }
+  
+  .testimonial-comment {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 21px;
+    color: #362a2a;
+    margin-bottom: 15px;
+  }
+  
+  .testimonial-info {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    color: #362a2a;
+    margin-bottom: 15px;
+  }
+  
+  /* Upcoming events section */
+  .upcoming-events-container {
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .upcoming-events-title {
+    font-size: 34px;
+    font-weight: bold;
+    color: #d9ce55;
+    margin-bottom: 15px;
+    font-family: 'Hiki';
+    font-weight: bolder;
+    text-shadow: 3px 3px #000000;
+    letter-spacing: 3px;
+  }
+  
+  .upcoming-events-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .upcoming-event-item {
+    /* background-color: #f9f9f9; */
+    padding: 20px;
+    background-color: rgb(235, 145, 221, 0.6);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 3);
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  }
+  
+  .upcoming-event-item .event-title {
+    font-size: 40px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+    font-family:'Charming';
+  }
+  
+  .upcoming-event-item .event-info {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    color: #362a2a;
+    margin-bottom: 5px;
+  }
+  
+  .upcoming-event-item .event-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'Thin';
+    font-weight: bolder;
+  }
+  
+  .upcoming-event-item .event-button:hover {
+    background-color: #0056b3;
+  }
+  
+    /* Footer */
+    .footer {
+      text-align: center;
+      margin-top: 50px;
+      padding-top: 20px;
+      border-top: 1px solid #ccc;
+    }
+    
+    .text-footer {
+      font-size: 14px;
+      color: #666;
+    }
+    

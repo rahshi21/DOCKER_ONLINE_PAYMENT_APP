@@ -1,0 +1,305 @@
+@font-face {
+  font-family: 'Welcome - ScratchOnes'; /* Name of the font */
+  src: url('/public/FONTS/Welcome.otf') format('opentype'), /* Path to the font file */
+}
+
+@font-face {
+  font-family: 'Charming'; /* Name of the font */
+  src: url('/public/FONTS/Charming.otf') format('opentype'), /* Path to the font file */
+}
+
+@font-face {
+  font-family: 'Hiki'; /* Name of the font */
+  src: url('/public/FONTS/Hiking.otf') format('opentype'), /* Path to the font file */
+}
+
+@font-face {
+  font-family: 'Sence'; /* Name of the font */
+  src: url('/public/FONTS/Sence.ttf') format('TrueType'), /* Path to the font file */
+}
+
+@font-face {
+  font-family: 'Thin'; /* Name of the font */
+  src: url('/public/FONTS/Thin.ttf') format('TrueType'), /* Path to the font file */
+}
+
+@font-face {
+  font-family: 'Picasso'; /* Name of the font */
+  src: url('/public/FONTS/Picasso.ttf') format('TrueType'), /* Path to the font file */
+}
+
+@font-face {
+  font-family: '23days'; /* Name of the font */
+  src: url('/public/FONTS/28 Days Later.ttf') format('TrueType'), /* Path to the font file */
+}
+
+@font-face {
+  font-family: 'BetsyFlanagan'; /* Name of the font */
+  src: url('/public/FONTS/BetsyFlanagan.ttf') format('TrueType'), /* Path to the font file */
+}
+
+@font-face {
+  font-family: 'National Cartoon'; /* Name of the font */
+  src: url('/public/FONTS/National Cartoon.ttf') format('TrueType'), /* Path to the font file */
+}
+
+@font-face {
+  font-family: 'orange juice 2.0'; /* Name of the font */
+  src: url('/public/FONTS/orange juice 2.0.ttf') format('TrueType'), /* Path to the font file */
+}
+
+@font-face {
+  font-family: 'yorkwhiteletter'; /* Name of the font */
+  src: url('/public/FONTS/yorkwhiteletter.ttf') format('TrueType'), /* Path to the font file */
+}
+
+.contact-page {
+  /* background: linear-gradient(135deg, #f3f3f3, #e6e6e6); */
+  background-image: url('/public/IMAGES/bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  /* padding-top: 60px; */
+  padding-bottom: 10px;
+}
+
+.contact-container {
+  max-width: 80%;
+  margin-left: 10%;
+  margin-top: 3%;
+  padding: 30px;
+  background-color: rgba(233, 191, 227, 0);
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  
+}
+
+.intro-section {
+  text-align: center;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+#one {
+  text-align: center;
+  font-size: 50px;
+  letter-spacing: 4px;
+  font-family:'orange juice 2.0';
+  text-shadow: 1.5px 1.5px #000000;
+  color: #d77206;
+  /* background: #989898; */
+}
+
+#two {
+
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-family:'Courier New', Courier, monospace;
+  text-shadow: 3px 3px #000000;
+  font-weight: bold;
+  color: #fff200;
+  /* background: #989898; */
+  margin: auto;
+  width: 70%;
+  margin-bottom: 30px;
+  
+}
+
+.person-card {
+  background-color: rgba(196, 152, 152, 0.5);
+  width: 70%;
+  text-align: center;
+  color: #333333;
+  padding: 30px;
+  margin: auto;
+  border-radius: 55px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 50);
+  transition: box-shadow 0.3s ease-in-out;
+  margin-bottom: 30px;
+}
+
+.person-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.person-info h3 {
+  margin-bottom: 20px;
+  font-family: 'yorkwhiteletter';
+  /* letter-spacing: 4px; */
+  font-size: 44px;
+  color: #3d0a0a;
+}
+
+#image{
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+}
+
+.person-links a {
+  color: #fc0606;
+  transition: color 0.3s ease-in-out;
+  padding: 10px;
+  
+}
+
+.person-links a:hover {
+  color: #333333;
+}
+
+.contact-form-section {
+  margin-top: 40px;  
+}
+
+/* #contact-headline {
+  font-size: 28px;
+  margin-bottom: 20px;
+  font-family: 'Poppins', sans-serif;
+  color: #333333;
+  text-align: center;
+  
+}
+
+#contact-subline {
+  font-size: 16px;
+  margin-bottom: 30px;
+  color: #666666;
+  text-align: center;
+} */
+
+.contact-form{
+  text-align: center;
+  justify-content: center;
+  width: 90%;
+  padding: auto;
+  margin: auto;
+  background-color: rgba(196, 152, 152, 0.5);
+  
+}
+
+.form-group label {
+  font-size: 22px;
+  font-family:'Hiki';
+  letter-spacing: 3px;
+  font-weight: bolder;
+  color: #000000;
+  text-align: center;
+  margin-left: 80%;
+}
+
+.form-group input,
+.form-group textarea {
+  
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: white;
+  font-family:'Courier New', Courier, monospace;
+  border: 1px solid #cccccc;
+  border-radius: 15px;
+  background-color: rgba(37, 37, 37, 0.7);
+  margin-left: 60%;
+  text-align: center;
+  /* margin: 50px; */
+}
+
+.form-group textarea {
+  resize: vertical;
+  
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #5e72e4;
+  
+}
+
+.form-group textarea {
+  min-height: 50px;
+  
+}
+
+.btn-primary {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 100px;
+  font-size: 22px;
+  font-family:'Hiki';
+  letter-spacing: 3px;
+  font-weight: bolder;
+  color: #ffffff;
+  border-color: rgba(133, 131, 238, 0);
+  padding: 20px 30px;
+  transition: background-color 0.3s ease-in-out;
+
+}
+
+.btn-primary:hover {
+  background-color: rgba(224, 200, 22, 0.4);
+  border-color: #324cdd;
+}
+
+.btn-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(94, 228, 148, 0.5);
+}
+
+.person-links i {
+  font-size: 28px;
+  margin: 0 10px;
+  color: #666666;
+  transition: color 0.3s ease-in-out;
+}
+
+.person-links i:hover {
+  color: #5e72e4;
+}
+
+.person-links i:focus {
+  outline: none;
+}
+
+.contact-form-section form {
+  padding: 20px;
+  background-color: rgba(196, 152, 152, 0.5);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 5);
+  border-radius: 100px;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+  color: #999999;
+}
+
+.form-group input:invalid,
+.form-group textarea:invalid {
+  border-color: #dc3545;
+}
+
+.form-group input:valid,
+.form-group textarea:valid {
+  border-color: #28a745;
+}
+
+.form-group input:invalid::placeholder,
+.form-group textarea:invalid::placeholder {
+  color: #dc3545;
+}
+
+.form-group input:valid::placeholder,
+.form-group textarea:valid::placeholder {
+  color: #28a745;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  margin-top: 50px;
+  padding-top: 20px;
+  border-top: 1px solid #ccc;
+}
+
+.text-footer {
+  font-size: 14px;
+  color: #666;
+}

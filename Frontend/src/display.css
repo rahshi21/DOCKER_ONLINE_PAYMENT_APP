@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'Welcome - ScratchOnes'; /* Name of the font */
+    src: url('/public/FONTS/Welcome.otf') format('opentype'), /* Path to the font file */
+  }
+  
+  @font-face {
+    font-family: 'Charming'; /* Name of the font */
+    src: url('/public/FONTS/Charming.otf') format('opentype'), /* Path to the font file */
+  }
+  
+  @font-face {
+    font-family: 'Hiki'; /* Name of the font */
+    src: url('/public/FONTS/Hiking.otf') format('opentype'), /* Path to the font file */
+  }
+  
+  @font-face {
+    font-family: 'Sence'; /* Name of the font */
+    src: url('/public/FONTS/Sence.ttf') format('TrueType'), /* Path to the font file */
+  }
+  
+  @font-face {
+    font-family: 'Thin'; /* Name of the font */
+    src: url('/public/FONTS/Thin.ttf') format('TrueType'), /* Path to the font file */
+  }
+  
+  @font-face {
+    font-family: 'Picasso'; /* Name of the font */
+    src: url('/public/FONTS/Picasso.ttf') format('TrueType'), /* Path to the font file */
+  }
+  
+  @font-face {
+    font-family: '23days'; /* Name of the font */
+    src: url('/public/FONTS/28 Days Later.ttf') format('TrueType'), /* Path to the font file */
+  }
+  
+  @font-face {
+    font-family: 'BetsyFlanagan'; /* Name of the font */
+    src: url('/public/FONTS/BetsyFlanagan.ttf') format('TrueType'), /* Path to the font file */
+  }
+  
+  @font-face {
+    font-family: 'National Cartoon'; /* Name of the font */
+    src: url('/public/FONTS/National Cartoon.ttf') format('TrueType'), /* Path to the font file */
+  }
+  
+  @font-face {
+    font-family: 'orange juice 2.0'; /* Name of the font */
+    src: url('/public/FONTS/orange juice 2.0.ttf') format('TrueType'), /* Path to the font file */
+  }  
+
+.container{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    margin-left: 50px;
+}
+.mb-1{
+    text-align: center;
+    padding: 10px;
+}
+.mb-p{
+    font-size: 56px;
+    font-family: 'orange juice 2.0';
+    letter-spacing: 5px;
+    text-shadow: 1.5px 1.5px #000000;
+    color: rgb(0, 0, 0);
+}
+.form-label{
+    font-size: 26px;
+    font-family: 'Hiki';
+    letter-spacing: 5px;
+    font-weight: bolder;
+    color: aqua;
+    text-shadow: 1.5px 1.5px #000000;
+}
+.form-control{
+    width: 50%;
+    margin-left: 25%;
+    height: 60px;
+    border-radius: 30px;
+    background-color: rgb(196, 191, 184);
+}
+.button{
+    font-size: 26px;
+    font-family: 'Hiki';
+    letter-spacing: 5px;
+    font-weight: bolder;
+    color: aqua;
+    text-shadow: 1.5px 1.5px #000000;
+    padding: 25px;
+    margin: 20px;
+    background-color: #000000;
+    border-radius: 30px;
+}
